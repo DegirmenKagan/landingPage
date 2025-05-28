@@ -7,7 +7,9 @@ const Header = () => {
         {/* Logo */}
         <div className="flex items-center">
           {/* Replace with your actual logo, e.g., an SVG or image */}
-          <span className="text-2xl font-bold text-gray-800">Perspective</span>
+          <span className="text-2xl font-bold text-gray-800">
+            Martı Yazılım
+          </span>
         </div>
 
         {/* Navigation Links */}
