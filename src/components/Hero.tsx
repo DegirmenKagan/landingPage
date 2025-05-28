@@ -8,6 +8,7 @@ const Hero = () => {
   const handleRedirectToDetails = () => {
     window.location.href = "https://www.martiyazilim.com.tr/hakkimizda.aspx";
   };
+
   return (
     <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20 md:py-32">
       <div className="container mx-auto px-6 text-center">

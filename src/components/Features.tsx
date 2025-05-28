@@ -1,5 +1,5 @@
 import React from "react";
-import { Lightbulb, Rocket, ShieldCheck } from "lucide-react"; // Example icons, install lucide-react if you want these
+import { BookOpenText, Lightbulb, Rocket, ShieldCheck } from "lucide-react"; // Example icons, install lucide-react if you want these
 
 // You'll need to install lucide-react if you want to use these icons:
 // npm install lucide-react
@@ -7,9 +7,9 @@ import { Lightbulb, Rocket, ShieldCheck } from "lucide-react"; // Example icons,
 const featuresData = [
   {
     icon: <Lightbulb className="w-10 h-10 text-primary-blue" />,
-    title: "Innovative Solutions",
+    title: "Yeniliklere Hızlı Entegrasyon",
     description:
-      "We bring fresh ideas to the table, ensuring you stay ahead of the curve with cutting-edge technology.",
+      "Adalet Bakanlığı'nın uygulamaya alacağı her türlü gelişme ve iyileştirmelerin takibi avukatlarımız tarafından yapılır. Bir hukukçu gözüyle analiz edilen bu yenilikler, avukatların gereksinim duyacağı özellikler de belirlenerek yazılım ekibine iletilir.",
   },
   {
     icon: <Rocket className="w-10 h-10 text-primary-blue" />,
@@ -24,7 +24,7 @@ const featuresData = [
       "Your data is safe with us. We employ the highest security standards to protect your information.",
   },
   {
-    icon: <Lightbulb className="w-10 h-10 text-primary-blue" />, // Repeat for more features
+    icon: <BookOpenText className="w-10 h-10 text-primary-blue" />, // Repeat for more features
     title: "User-Friendly Interface",
     description:
       "Intuitive design that makes complex tasks simple and enjoyable for everyone.",
