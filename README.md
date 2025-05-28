@@ -3,6 +3,20 @@ npm create vite@latest perspective-landing-page -- --template react
 npm install
 npm install -D tailwindcss@^3.0.0 postcss autoprefixer
 npx tailwindcss init -p
+npm install lucide-react
+node -v
+v14.17.6
+
+https://nodejs.org/en/download/
+npm install
+npm run dev
+
+You need to rename your postcss.config.js file to postcss.config.cjs.
+
+if components have error:
+control shift p
+restart ts server
+npm run dev
 
 # React + TypeScript + Vite
 

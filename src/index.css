@@ -3,8 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* You can add any global custom CSS here if needed */
+/* Example: basic body styles (ensure Inter font is imported in public/index.html) */
 body {
-  font-family: "Inter", sans-serif; /* Make sure to import this font */
+  font-family: "Inter", sans-serif;
+  @apply text-gray-900; /* Example Tailwind apply */
 }
 
 /* 
