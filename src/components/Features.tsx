@@ -1,33 +1,49 @@
 import React from "react";
-import { BookOpenText, Lightbulb, Rocket, ShieldCheck } from "lucide-react"; // Example icons, install lucide-react if you want these
+import {
+  BookOpenText,
+  ChartNoAxesCombined,
+  ClockFading,
+  Lightbulb,
+  MessageSquareHeart,
+  Rocket,
+  ShieldCheck,
+  SquareDashedMousePointer,
+  TimerReset,
+} from "lucide-react"; // Example icons, install lucide-react if you want these
 
 // You'll need to install lucide-react if you want to use these icons:
 // npm install lucide-react
 
 const featuresData = [
   {
-    icon: <Lightbulb className="w-10 h-10 text-primary-blue" />,
+    icon: <ClockFading className="w-10 h-10 text-primary-blue" />,
     title: "Yeniliklere Hızlı Entegrasyon",
     description:
       "Adalet Bakanlığı'nın uygulamaya alacağı her türlü gelişme ve iyileştirmelerin takibi avukatlarımız tarafından yapılır. Bir hukukçu gözüyle analiz edilen bu yenilikler, avukatların gereksinim duyacağı özellikler de belirlenerek yazılım ekibine iletilir.",
   },
   {
-    icon: <Rocket className="w-10 h-10 text-primary-blue" />,
-    title: "Blazing Fast Performance",
+    icon: <ChartNoAxesCombined className="w-10 h-10 text-primary-blue" />,
+    title: "Profesyonel Ekip",
     description:
-      "Experience lightning-fast speeds and seamless operations with our optimized infrastructure.",
+      "Martı Yazılım ailesine katılan her bir ekip üyesi, üstün hizmet kalitesini hedefleyen üç aylık eğitim ve oryantasyon sürecini tamamladıktan sonra sizlere hizmet vermeye başlar. Martı Yazılım bünyesinde eğitim anlayışı sürekli ve kesintisizdir.",
   },
   {
-    icon: <ShieldCheck className="w-10 h-10 text-primary-blue" />,
-    title: "Top-tier Security",
+    icon: <TimerReset className="w-10 h-10 text-primary-blue" />,
+    title: "Hız Kazandıran Bütünleşik Yapı",
     description:
-      "Your data is safe with us. We employ the highest security standards to protect your information.",
+      "Hız ve verimliliğin sizin için ne denli önemli olduğunu biliyoruz. Bu sebeple; yazılımlarımızın hız kazandıran bütünleşik yapısı sayesinde her zaman önde olmanızı hedefliyoruz.",
   },
   {
-    icon: <BookOpenText className="w-10 h-10 text-primary-blue" />, // Repeat for more features
-    title: "User-Friendly Interface",
+    icon: <SquareDashedMousePointer className="w-10 h-10 text-primary-blue" />, // Repeat for more features
+    title: "Kullanıcı Dostu Arayüz",
     description:
-      "Intuitive design that makes complex tasks simple and enjoyable for everyone.",
+      "Martı Yazılım program arayüzlerini tasarlarken tek bir bakışta hızlıca aranılan bilgiye ulaşmayı hedefler. Mümkün olduğunca sade tutulan program arayüzleri sayesinde 'Yeni bir programa adapte olmak' endişesini ortadan kaldırır.",
+  },
+  {
+    icon: <MessageSquareHeart className="w-10 h-10 text-primary-blue" />, // Repeat for more features
+    title: "Kolay Ulaşılabilir, Güler Yüzlü Hizmet",
+    description:
+      "Hafta içi tüm günler 08:00-18:00; Cumartesi günü 10:00-16:00 saatleri arasında ihtiyaç duyduğunuz her an hızlıca bize ulaşabilir, işlemlerinizle ilgili destek alabilirsiniz.",
   },
 ];
 
