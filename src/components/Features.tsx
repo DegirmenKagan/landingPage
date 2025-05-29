@@ -1,12 +1,8 @@
 import React from "react";
 import {
-  BookOpenText,
   ChartNoAxesCombined,
   ClockFading,
-  Lightbulb,
   MessageSquareHeart,
-  Rocket,
-  ShieldCheck,
   SquareDashedMousePointer,
   TimerReset,
 } from "lucide-react"; // Example icons, install lucide-react if you want these
