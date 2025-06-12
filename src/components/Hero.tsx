@@ -1,4 +1,5 @@
 import React from "react";
+import BannerCard from "./BannerCard";
 
 const Hero = () => {
   const handleRedirect = () => {
@@ -37,11 +38,9 @@ const Hero = () => {
         </div>
         {/* Placeholder for an image or video */}
         <div className="mt-16">
-          <img
-            src=""
-            alt="Product Screenshot"
-            className="rounded-lg shadow-xl mx-auto w-full max-w-4xl"
-          />
+          <div className="rounded-lg shadow-xl mx-auto w-full max-w-4xl">
+            <BannerCard />
+          </div>
         </div>
       </div>
     </section>

@@ -48,7 +48,7 @@ const Features = () => {
     <section className="py-20 bg-light-gray">
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-4xl font-extrabold text-dark-gray mb-12">
-          Why Choose Us?
+          Neden Biz?
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {featuresData.map((feature, index) => (
